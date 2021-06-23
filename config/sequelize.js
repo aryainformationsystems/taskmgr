@@ -1,4 +1,4 @@
 const { Sequelize } = require('sequelize');
-const sequelize = new Sequelize('postgres://postgres:Jajwuth2fapow@localhost:5432/taskbox');
+const sequelize = new Sequelize('postgres://nmahvhuf:cbLeLGshrRiS99_FEGLRbwWWlTIKC89j@rosie.db.elephantsql.com/nmahvhuf');
 
 module.exports = sequelize;
