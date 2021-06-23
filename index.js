@@ -22,6 +22,9 @@ const { Comment } = require("./model/comment");
 Task.hasMany(Comment);
 Comment.belongsTo(Task);
 
+// sequelize.sync({
+//   force: true
+// });
 sequelize.sync();
 
 require("./route/task_route")(app);

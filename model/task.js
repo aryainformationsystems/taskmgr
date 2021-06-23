@@ -20,6 +20,10 @@ const Task = sequelize.define(
       type: DataTypes.DATE,
       allowNull: true,
     },
+    status: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     category: {
       type: DataTypes.STRING,
       allowNull: false,

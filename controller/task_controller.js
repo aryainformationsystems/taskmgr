@@ -59,6 +59,7 @@ exports.createTask = (req, res) => {
       apiUtil.sendResponse(result, res);
     })
     .catch((err) => {
+      console.log(err);
       apiUtil.handleError(err, res);
     });
 };
